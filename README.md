@@ -1,4 +1,4 @@
-# ArtiLife
+# consciousNFT
 
 NPC NFTs trained LLMs.
 
@@ -13,6 +13,18 @@ NPC NFTs trained LLMs.
 - ChatGPT (LLM)
 
 ## Getting Started
+
+Copy the `.env.example` to `.env`:
+
+```
+$ cp .env.example .env
+```
+
+Run postgres docker:
+
+```
+$ docker run --name consciousnft -e POSTGRES_PASSWORD=ethglobal -d postgres
+```
 
 ```
 $ nvm use && npm install
